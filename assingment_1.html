@@ -1,0 +1,35 @@
+<!DOCTYPEhtml>
+    <html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>project 1</title>
+    </head>
+    <body>
+        <div class="my" style="border:2px solid black; width:300px; height:200px;">
+        <h2 style="margin:20px;color:brown">Get your daily Quote </h2>
+        <p id="demo" ></p>
+        <button onclick="message()" id="a" style="width:150px; height:30px;background-color: blue; margin:50px;">Click me</button>
+
+        <script>
+
+var quote = [
+           ["* Dreaming is the first step towards achieving a goal *", ":- Dr.A.P.J Abdul kalam"],
+           ["* You cannot believe in God until you believe in yourself *",":-Swami Vivekananda"]
+        ];
+            function message() {
+              for(var i=0;i<2;i++){
+              for(var j=0;j<2;j++){
+                document.write(quote[i][j]+ "<br>") ; 
+            
+                  
+              }
+               
+            }   
+          
+         }
+        </script>
+            </div>
+         </body>
+         </html>
